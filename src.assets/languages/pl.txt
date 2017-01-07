@@ -1,0 +1,189 @@
+﻿# FILLER[[
+    #  !"#$%&'()*+,-./0123
+# 456789:;<=>?@ABCDEFG
+# HIJKLMNOPQRSTUVWXYZ[
+# \]^_`abcdefghijklmno
+# pqrstuvwxyz{|}~´ÄÉÖÜ
+# ßáâãäçéêíóõöúüąćęŁłń
+# Śśźż
+# ]]
+
+key8=Backspace
+key9=Tabulacja
+key13=Enter
+key16=Shift
+key17=Control
+key18=Alt
+key19=Pause/Brk
+key20=Caps Lock
+key27=Escape
+key32=Spacja
+key33=Page Up
+key34=Page Down
+key35=End
+key36=Home
+key37=Lewo
+key38=Góra
+key39=Prawo
+key40=Dół
+key45=Insert
+key46=Delete
+key48=0
+key49=1
+key50=2
+key51=3
+key52=4
+key53=5
+key54=6
+key55=7
+key56=8
+key57=9
+key65=A
+key66=B
+key67=C
+key68=D
+key69=E
+key70=F
+key71=G
+key72=H
+key73=I
+key74=J
+key75=K
+key76=L
+key77=M
+key78=N
+key79=O
+key80=P
+key81=Q
+key82=R
+key83=S
+key84=T
+key85=U
+key86=V
+key87=W
+key88=X
+key89=Y
+key90=Z
+key91=L.Win/Cmd
+key92=P.Win
+key93=Menu
+key96=Num 0
+key97=Num 1
+key98=Num 2
+key99=Num 3
+key100=Num 4
+key101=Num 5
+key102=Num 6
+key103=Num 7
+key104=Num 8
+key105=Num 9
+key106=Num *
+key107=Num +
+key109=Num -
+key110=Num .
+key111=Num /
+key112=F1
+key113=F2
+key114=F3
+key115=F4
+key116=F5
+key117=F6
+key118=F7
+key119=F8
+key120=F9
+key121=F10
+key122=F11
+key123=F12
+key124=F13
+key125=F14
+key126=F15
+key144=Numlock
+key145=Scroll Lock
+key186=;
+key187==
+key188=,
+key189=-
+key190=.
+key191=/
+key192=~
+key219=[
+key220=\
+key221=]
+key222='
+
+
+keyLeftDesc=Ruch w Lewo
+keyRightDesc=Ruch w Prawo
+keyUpDesc=Ruch do Góry
+keyDownDesc=Ruch na Dół
+keyFireDesc=Strzał
+keySoundDesc=Przełącz Dźwięk
+keyMusicDesc=Przełącz Muzykę
+Mouse Controls=Ruch Myszką
+Key Controls=Ruch Klawiaturą
+ 
+choseLanguage=Wybierz język.
+
+preloadTitle=GALAXUS
+preloadDesc=Niczym babinie ciasteczka, ale z domieszką laserów i pikseli!
+
+Game is Paused=Pauza
+Return to Game=Kontynuuj
+Pause - Game lost focus=Pauza - kliknąłeś poza oknem
+Click to continue=Kliknij na oknie gry by kontynuować
+
+Walkthrough=Pomoc
+credits=Twórcy
+helpTooltip=(Tylko po Angielsku)\nWskazówki do gry.\nOtwiera w nowym oknie.
+
+
+shop1=Zwiększa szybkość strzelania.\n$1000
+shop2=Zwiększa szybkość strzelania.\n$2000
+shop3=Zwiększa szybkość strzelania.\n$4000
+shop4=Zwiększa szybkość strzelania.\n$7000
+shop5=Pozwala strzelać dwoma\npociskami naraz.\n$4000
+shop6=Pozwala strzelać trzema\npociskami naraz.\n$8000
+shop7=Pozwala strzelać jednym\npociskiem do tyłu.\n$500
+shop8=Pozwala strzelać dwoma\npociskami do tyłu.\n$2000
+shopA=Zwiększa szybkość\ngracza oraz pocisków.\n$1000
+shopB=Zwiększa szybkość\ngracza oraz pocisków.\n$2000
+shopC=Zwiększa szybkość\ngracza oraz pocisków.\n$4000
+shopD=Wyjdź ze sklepu.
+
+Wave #=Etap #
+Enemy Power:=Siła przeciwników:
+Enemy Speed:=Szybkość przeciwników:
+Enemy Life:=Życie przeciwników:
+Best score:=Najlepszy wynik:
+Your score:=Twój wynik:
+Space to shop=Spacja = Sklep
+
+
+intro=Niszcz, Miażdz i Zabijaj!\n\nUżywaj myszki by siać zniszczenie.\n\nWciśnij Escape by otworzyć opcje i\nby zmienić sterowanie.\nStrzel by zacząć rozwałkę!
+finish1=Twój wynik to:
+finish2=Gratulacje! Udało Ci się\npobić swój własny wynik!\n\nWysyłanie!
+finish3=Niestety, nie udało Ci\nsię pobić własnego wyniku.\n\nStrzel by spróbować ponownie.
+
+finish2_no=Gratulacje! Udało Ci się\npobić swój własny wynik!\n\nStrzel by zagrać od nowa!
+finish3_no=Niestety, nie udało Ci\nsię pobić własnego wyniku.\n\nStrzel by spróbować ponownie.
+
+
+
+Game by=Gra stworzona przez
+RETROCADE.net=RETROCADE.net
+Programming=Programowanie
+Maurycy Zarzycki=Maurycy Zarzycki
+Graphics=Grafika
+Aleksander Kowalczyk=Aleksander Kowalczyk
+Music=Muzyka
+Sound Effects=Dźwięki
+Various Resources=Various Resources
+MusicCredit=jazzcat/s0nic temple
+SfxCredit=SFXR (Tomas Pettersson)
+Translations=Translations
+EN - Chris Allcock=EN - Chris Allcock
+PL - Maurycy Zarzycki=PL - Maurycy Zarzycki
+DE - Magnus Halbe=DE - Magnus Halbe
+NL - Sabatino Masala=NL - Sabatino Masala
+PT-BR - Daniel Sidhion=PT-BR - Daniel Sidhion
+ZH - Landily=ZH - Landily
