@@ -19,7 +19,7 @@ package game.states {
 
 		private var loadWaver:Number = 0;
 
-		private var star:Starfield
+		private var star:Starfield;
 
 		public function TStatePreload() {
 			txt = Make.text(_("preloadTitle"), 0xFFFFFF, 8);

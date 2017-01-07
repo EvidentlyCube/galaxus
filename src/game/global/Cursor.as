@@ -4,7 +4,6 @@ package game.global {
 
 	import net.retrocade.retrocamel.core.RetrocamelBitmapManager;
 
-	import net.retrocade.retrocamel.core.RetrocamelDisplayManager;
 	import net.retrocade.retrocamel.core.RetrocamelInputManager;
 
 	import net.retrocade.retrocamel.display.layers.RetrocamelLayerFlashSprite;
@@ -15,10 +14,6 @@ package game.global {
 
 		private static var _isVisible:Boolean;
 
-
-		public static function get isVisible():Boolean {
-			return _isVisible;
-		}
 
 		public static function set isVisible(value:Boolean):void {
 			_isVisible = value;

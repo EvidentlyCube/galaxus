@@ -244,6 +244,7 @@ package game.objects {
 					TPlayer.speedLevel = 3;
 					updateTooltips();
 					Score.cash.add(-4000);
+					break;
 
 				case(itemD):
 					hidden = true;

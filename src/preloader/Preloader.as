@@ -67,7 +67,7 @@ package preloader {
 
 			Pre.preCoreInit();
 
-			RetrocamelCore.initFlash(stage, this, S(), MakeFake());
+			RetrocamelCore.initFlash(stage, this, S());
 			Sfx.initialize();
 			Sfx.startGenerating(soundMakeFinished);
 			RetrocamelDisplayManager.setBackgroundColor(0);
@@ -93,7 +93,7 @@ package preloader {
 		}
 
 		private function checkFrame(e:Event):void {
-			percent = stage.loaderInfo.bytesLoaded * 100 / stage.loaderInfo.bytesTotal
+			percent = stage.loaderInfo.bytesLoaded * 100 / stage.loaderInfo.bytesTotal;
 			if (stage.loaderInfo.bytesLoaded >= stage.loaderInfo.bytesTotal) {
 				gotoAndStop(2);
 				removeEventListener(Event.ENTER_FRAME, checkFrame);

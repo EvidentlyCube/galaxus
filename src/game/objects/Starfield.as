@@ -13,7 +13,7 @@ package game.objects {
 
 		override public function update():void {
 			while (_stars.length < 150)
-				newStar(false);
+				newStar();
 
 			for each(var i:Object in _stars) {
 				_layer.plot(i.x, i.y = (i.y + i.speed) % 150, i.color);
@@ -45,7 +45,7 @@ package game.objects {
 			return _colors[Math.random() * 14 | 0] | 0xFF000000;
 		}
 
-		private function newStar(onTop:Boolean = false):void {
+		private function newStar():void {
 			var star:Object = {
 				x: Math.random() * S().levelWidth,
 				y: Math.random() * S().levelHeight,

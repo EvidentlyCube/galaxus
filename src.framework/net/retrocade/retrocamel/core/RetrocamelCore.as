@@ -70,11 +70,6 @@ package net.retrocade.retrocamel.core {
         retrocamel_int static var settings:IRetrocamelSettings;
 
         /**
-         * The make object
-         */
-        retrocamel_int static var make:IRetrocamelMake;
-
-        /**
          * Currently displayed state
          */
         private static var _currentState:RetrocamelStateBase;
@@ -116,9 +111,8 @@ package net.retrocade.retrocamel.core {
         /**
          * Initialzes the whole game
          */
-        public static function initFlash(stage:Stage, main:MovieClip, settingsInstance:IRetrocamelSettings, makeInstance:IRetrocamelMake):void {
+        public static function initFlash(stage:Stage, main:MovieClip, settingsInstance:IRetrocamelSettings):void {
             settings = settingsInstance;
-            make = makeInstance;
 
             stage.frameRate = 60;
 

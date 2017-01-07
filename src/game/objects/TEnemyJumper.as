@@ -23,9 +23,6 @@ package game.objects {
 			__gfxDamage[1] = RetrocamelBitmapManager.getBDSpecial(Game._gfx_, 21, 18, 8, 6, false, 0xFFFFFF);
 		}
 
-		private var toX:Number;
-		private var toY:Number;
-
 		private var state:uint = 0;
 		private var stateWait:uint = 0;
 		private var fireCount:uint;
@@ -49,7 +46,7 @@ package game.objects {
 			addDefault();
 			addHash();
 
-			_gfx == __gfx[0];
+			_gfx = __gfx[0];
 		}
 
 

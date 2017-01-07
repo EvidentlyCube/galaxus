@@ -29,11 +29,6 @@ package game.windows {
 			RetrocamelDisplayManager.flashStage.addEventListener(Event.DEACTIVATE, onDeactivate);
 		}
 
-		public static function unhook():void {
-			RetrocamelDisplayManager.flashStage.removeEventListener(Event.ACTIVATE, onActivate);
-			RetrocamelDisplayManager.flashStage.removeEventListener(Event.DEACTIVATE, onDeactivate);
-		}
-
 		private static function onDeactivate(e:Event):void {
 			if (instance.parent)
 				return;
